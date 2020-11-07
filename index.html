@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> South Park Quiz </title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+<div class="container">
+	<div class="row">
+    <div class="col-md-8">
+
+<header>
+  <h1> South Park Quiz </h1>
+  <p>South Park is an american television show. It is an animated sit-com about a small town in South Park, Colorado. The show became infamous for its profanity and dark, surreal humor that satirizes a wide range of topics towards a mature audience. <br> Source: <a href="https://en.wikipedia.org/wiki/South_Park"> Wikipedia </a></p>
+</header>
+
+      <form>
+        <div class="form-group">
+          <label for="question1">What is the mascot of South Park Elementary School?</label>
+          <input name="mascot" type="text" class="form-control" id="question1">
+        </div>
+        <div class="form-group">
+          <label for="question2">In what year did South Park debut?</label>
+          <input name="year" type="text" class="form-control" id="question2">
+        </div>
+        <div class="form-group">
+          <label for="question3">What controversies has South Park been involved in?</label>
+          <textarea name="controversies" class="form-control" id="question3" rows="5"></textarea>
+        </div>
+				<div class="form-group">
+    			<label for="question4">What cable network do new episodes of South Park air on?</label>
+    			<select name="network" class="form-control" size="6" id="question4">
+      			<option value="FX">FX</option>
+      			<option value="TNT">TNT</option>
+      			<option value="CC">Comedy Central</option>
+      			<option value="VH1">VH1</option>
+      			<option value="MTV">MTV</option>
+						<option value="AMC">AMC</option>
+    			</select>
+  			</div>
+				<div class="form-group">
+					<label>How many episodes of South Park have aired?</label>
+
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="episodes" value="308"> 308
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="episodes" value="295"> 295
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="episodes" value="312"> 312
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="episodes" value="303"> 303
+							</label>
+						</div>
+
+				</div>
+
+				<div class="form-group">
+					<label>Pick out the four main characters of South Park.</label>
+
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="main" value="eric_cartman"> Eric Cartman
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="main" value="alex_frost"> Alex Frost
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="main" value="kenny_mccormick"> Kenny McCormick
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="main" value="craig_stotch"> Craig Stotch
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="main" value="ike_ferguson"> Ike Ferguson
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="main" value="kyle_broflovski"> Kyle Broflovski
+							</label>
+						</div>
+						<div class="form-check">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="main" value="stan_marsh"> Stan Marsh
+							</label>
+						</div>
+
+				</div>
+				<div>
+					<input class="btn btn-primary" type="submit" value="Submit">
+					<input class="btn btn-secondary" type="reset" value="Reset">
+				</div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
